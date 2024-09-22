@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: featurestest
+  datasource:
+    url: jdbc:mysql://localhost/library
+    username: root
+    password: p@55w0rd
+    driverClassName: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: always
+logging:
+  level:
+    org.jooq: debug
